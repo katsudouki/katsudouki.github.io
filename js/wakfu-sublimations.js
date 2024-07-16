@@ -9,12 +9,12 @@
         tableBody.empty();
         data.forEach(item => {
             const sockets = convertSockets(item.Socket1 + item.Socket2 + item.Socket3);
-            const row = `<tr class="hover:bg-gray-700 border-gray-600">
-                            <td >${item.Name}</td>
-                            <td class="">${sockets}</td>
-                            <td >${item["I (Rare)"]}</td>
-                            <td >${item["II (Mythical)"]}</td>
-                            <td >${item["III (Legendary)"]}</td>
+            const row = `<tr class="hover:bg-gray-700  border-b border-r border-gray-600">
+                            <td class="border-r  border-gray-600">${item.Name}</td>
+                            <td class="border-r  border-gray-600">${sockets}</td>
+                            <td class="border-r  border-gray-600">${item["I (Rare)"]}</td>
+                            <td class="border-r  border-gray-600">${item["II (Mythical)"]}</td>
+                            <td class="border-r border-gray-600">${item["III (Legendary)"]}</td>
                             <td >${item.MaxLevel}</td>
                            
                          </tr>`;

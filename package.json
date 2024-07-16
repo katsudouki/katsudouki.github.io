@@ -1,6 +1,1 @@
-{
-"type": "module",
-  "dependencies": {
-    "@midudev/tailwind-animations": "^0.0.7"
-  }
-}
+{"type":"module","dependencies":{"@midudev/tailwind-animations":"^0.0.7","tailwindcss-animations":"^2.0.0"}}
