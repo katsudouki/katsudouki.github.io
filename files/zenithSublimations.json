@@ -15876,10 +15876,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "Effectue une Parade donne [st34622] (+2 Niv.)\n**Préparation**:\n1.00% Dommages infligés au prochain sort de Dommages",
-      "en": "Performing a Block gives [st34622] (+2 Lvl.)\n**Preparation**:\n1.00% Damage inflicted on next Damage spell",
-      "es": "Efectuar una anticipación da [st34622] (+2 niv.)\n**Preparación**:\n1.00% daños infligidos en el próximo hechizo de daños",
-      "pt": "Efetuar uma parada concede [st34622] (+2 nv.)\n**Preparação**:\n1.00% de Danos causados no próximo feitiço de Danos"
+      "fr": "Effectue une Parade donne  (+2 Niv.)\n**Préparation**:\n1.00% Dommages infligés au prochain sort de Dommages",
+      "en": "Performing a Block gives  (+2 Lvl.)\n**Preparation**:\n1.00% Damage inflicted on next Damage spell",
+      "es": "Efectuar una anticipación da  (+2 niv.)\n**Preparación**:\n1.00% daños infligidos en el próximo hechizo de daños",
+      "pt": "Efetuar uma parada concede  (+2 nv.)\n**Preparação**:\n1.00% de Danos causados no próximo feitiço de Danos"
     }
   },
   {
@@ -16028,10 +16028,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "Effectue une Parade donne [st34623] (+3 Niv.)\n**Préparation**:\n1.00% Dommages infligés au prochain sort de Dommages",
-      "en": "Performing a Block gives [st34623] (+3 Lvl.)\n**Preparation**:\n1.00% Damage inflicted on next Damage spell",
-      "es": "Efectuar una anticipación da [st34623] (+3 niv.)\n**Preparación**:\n1.00% daños infligidos en el próximo hechizo de daños",
-      "pt": "Efetuar uma parada concede [st34623] (+3 nv.)\n**Preparação**:\n1.00% de Danos causados no próximo feitiço de Danos"
+      "fr": "Effectue une Parade donne  (+3 Niv.)\n**Préparation**:\n1.00% Dommages infligés au prochain sort de Dommages",
+      "en": "Performing a Block gives  (+3 Lvl.)\n**Preparation**:\n1.00% Damage inflicted on next Damage spell",
+      "es": "Efectuar una anticipación da  (+3 niv.)\n**Preparación**:\n1.00% daños infligidos en el próximo hechizo de daños",
+      "pt": "Efetuar uma parada concede  (+3 nv.)\n**Preparação**:\n1.00% de Danos causados no próximo feitiço de Danos"
     }
   },
   {
@@ -16503,10 +16503,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "Effectue une Parade donne [st34621] (+1 Niv.)\n**Préparation**:\n1.00% Dommages infligés au prochain sort de Dommages",
-      "en": "Performing a Block gives [st34621] (+1 Lvl.)\n**Preparation**:\n1.00% Damage inflicted on next Damage spell",
-      "es": "Efectuar una anticipación da [st34621] (+1 niv.)\n**Preparación**:\n1.00% daños infligidos en el próximo hechizo de daños",
-      "pt": "Efetuar uma parada concede [st34621] (+1 nv.)\n**Preparação**:\n1.00% de Danos causados no próximo feitiço de Danos"
+      "fr": "Effectue une Parade donne  (+1 Niv.)\n**Préparation**:\n1.00% Dommages infligés au prochain sort de Dommages",
+      "en": "Performing a Block gives  (+1 Lvl.)\n**Preparation**:\n1.00% Damage inflicted on next Damage spell",
+      "es": "Efectuar una anticipación da  (+1 niv.)\n**Preparación**:\n1.00% daños infligidos en el próximo hechizo de daños",
+      "pt": "Efetuar uma parada concede  (+1 nv.)\n**Preparação**:\n1.00% de Danos causados no próximo feitiço de Danos"
     }
   },
   {
@@ -24381,7 +24381,7 @@
     "effects": [
       {
         "id_effect": 283543,
-        "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur [ecnbi]</b>",
+        "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur </b>",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -24399,7 +24399,7 @@
             "column_name": "name_effect",
             "foreign_key": 283543,
             "locale": "en",
-            "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster [ecnbi]</b>",
+            "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -24409,7 +24409,7 @@
             "column_name": "name_effect",
             "foreign_key": 283543,
             "locale": "pt",
-            "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador [ecnbi]</b>",
+            "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -24419,7 +24419,7 @@
             "column_name": "name_effect",
             "foreign_key": 283543,
             "locale": "es",
-            "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador [ecnbi]</b>",
+            "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador </b>",
             "created_at": "2023-11-07T00:03:45.000000Z",
             "updated_at": "2023-11-07T00:03:45.000000Z"
           }
@@ -24444,10 +24444,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "En fin de tour, si un coup critique a été effectué :\nSoin [el0] : 4% des PV manquants du lanceur [ecnbi]",
-      "en": "At end of turn, if a critical hit was performed:\n[el0]  Heal: 4% of HP lost of the caster [ecnbi]",
-      "es": "Al final del turno, si se ha efectuado un golpe crítico:\nCura [el0] : 4% de los PdV faltantes del lanzador [ecnbi]",
-      "pt": "Em fim de turno, se um golpe crítico tiver sido desferido:\nCura [el0] : 4% dos PV perdidos do lançador [ecnbi]"
+      "fr": "En fin de tour, si un coup critique a été effectué :\nSoin [el0] : 4% des PV manquants du lanceur ",
+      "en": "At end of turn, if a critical hit was performed:\n[el0]  Heal: 4% of HP lost of the caster ",
+      "es": "Al final del turno, si se ha efectuado un golpe crítico:\nCura [el0] : 4% de los PdV faltantes del lanzador ",
+      "pt": "Em fim de turno, se um golpe crítico tiver sido desferido:\nCura [el0] : 4% dos PV perdidos do lançador "
     }
   },
   {
@@ -24496,7 +24496,7 @@
     "effects": [
       {
         "id_effect": 283543,
-        "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur [ecnbi]</b>",
+        "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur </b>",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -24514,7 +24514,7 @@
             "column_name": "name_effect",
             "foreign_key": 283543,
             "locale": "en",
-            "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster [ecnbi]</b>",
+            "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -24524,7 +24524,7 @@
             "column_name": "name_effect",
             "foreign_key": 283543,
             "locale": "pt",
-            "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador [ecnbi]</b>",
+            "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -24534,7 +24534,7 @@
             "column_name": "name_effect",
             "foreign_key": 283543,
             "locale": "es",
-            "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador [ecnbi]</b>",
+            "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador </b>",
             "created_at": "2023-11-07T00:03:45.000000Z",
             "updated_at": "2023-11-07T00:03:45.000000Z"
           }
@@ -24559,10 +24559,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "En fin de tour, si un coup critique a été effectué :\nSoin [el0] : 6% des PV manquants du lanceur [ecnbi]",
-      "en": "At end of turn, if a critical hit was performed:\n[el0]  Heal: 6% of HP lost of the caster [ecnbi]",
-      "es": "Al final del turno, si se ha efectuado un golpe crítico:\nCura [el0] : 6% de los PdV faltantes del lanzador [ecnbi]",
-      "pt": "Em fim de turno, se um golpe crítico tiver sido desferido:\nCura [el0] : 6% dos PV perdidos do lançador [ecnbi]"
+      "fr": "En fin de tour, si un coup critique a été effectué :\nSoin [el0] : 6% des PV manquants du lanceur ",
+      "en": "At end of turn, if a critical hit was performed:\n[el0]  Heal: 6% of HP lost of the caster ",
+      "es": "Al final del turno, si se ha efectuado un golpe crítico:\nCura [el0] : 6% de los PdV faltantes del lanzador ",
+      "pt": "Em fim de turno, se um golpe crítico tiver sido desferido:\nCura [el0] : 6% dos PV perdidos do lançador "
     }
   },
   {
@@ -24579,7 +24579,7 @@
     "effects": [
       {
         "id_effect": 283543,
-        "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur [ecnbi]</b>",
+        "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur </b>",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -24597,7 +24597,7 @@
             "column_name": "name_effect",
             "foreign_key": 283543,
             "locale": "en",
-            "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster [ecnbi]</b>",
+            "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -24607,7 +24607,7 @@
             "column_name": "name_effect",
             "foreign_key": 283543,
             "locale": "pt",
-            "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador [ecnbi]</b>",
+            "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -24617,7 +24617,7 @@
             "column_name": "name_effect",
             "foreign_key": 283543,
             "locale": "es",
-            "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador [ecnbi]</b>",
+            "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador </b>",
             "created_at": "2023-11-07T00:03:45.000000Z",
             "updated_at": "2023-11-07T00:03:45.000000Z"
           }
@@ -24688,7 +24688,7 @@
         "effects": [
           {
             "id_effect": 283543,
-            "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur [ecnbi]</b>",
+            "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur </b>",
             "ui_position": 0,
             "from_evolution": 0,
             "container_min_level": 0,
@@ -24706,7 +24706,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 283543,
                 "locale": "en",
-                "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster [ecnbi]</b>",
+                "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster </b>",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -24716,7 +24716,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 283543,
                 "locale": "pt",
-                "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador [ecnbi]</b>",
+                "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador </b>",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -24726,7 +24726,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 283543,
                 "locale": "es",
-                "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador [ecnbi]</b>",
+                "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador </b>",
                 "created_at": "2023-11-07T00:03:45.000000Z",
                 "updated_at": "2023-11-07T00:03:45.000000Z"
               }
@@ -24797,7 +24797,7 @@
         "effects": [
           {
             "id_effect": 283543,
-            "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur [ecnbi]</b>",
+            "name_effect": "En fin de tour, si un coup critique a été effectué :\\n<b>Soin [el0] : [#1]% des PV manquants du lanceur </b>",
             "ui_position": 0,
             "from_evolution": 0,
             "container_min_level": 0,
@@ -24815,7 +24815,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 283543,
                 "locale": "en",
-                "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster [ecnbi]</b>",
+                "value": "At end of turn, if a critical hit was performed:\\n<b>[el0]  Heal: [#1]% of HP lost of the caster </b>",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -24825,7 +24825,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 283543,
                 "locale": "pt",
-                "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador [ecnbi]</b>",
+                "value": "Em fim de turno, se um golpe crítico tiver sido desferido:\\n<b>Cura [el0] : [#1]% dos PV perdidos do lançador </b>",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -24835,7 +24835,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 283543,
                 "locale": "es",
-                "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador [ecnbi]</b>",
+                "value": "Al final del turno, si se ha efectuado un golpe crítico:\\n<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador </b>",
                 "created_at": "2023-11-07T00:03:45.000000Z",
                 "updated_at": "2023-11-07T00:03:45.000000Z"
               }
@@ -24923,10 +24923,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "En fin de tour, si un coup critique a été effectué :\nSoin [el0] : 2% des PV manquants du lanceur [ecnbi]",
-      "en": "At end of turn, if a critical hit was performed:\n[el0]  Heal: 2% of HP lost of the caster [ecnbi]",
-      "es": "Al final del turno, si se ha efectuado un golpe crítico:\nCura [el0] : 2% de los PdV faltantes del lanzador [ecnbi]",
-      "pt": "Em fim de turno, se um golpe crítico tiver sido desferido:\nCura [el0] : 2% dos PV perdidos do lançador [ecnbi]"
+      "fr": "En fin de tour, si un coup critique a été effectué :\nSoin [el0] : 2% des PV manquants du lanceur ",
+      "en": "At end of turn, if a critical hit was performed:\n[el0]  Heal: 2% of HP lost of the caster ",
+      "es": "Al final del turno, si se ha efectuado un golpe crítico:\nCura [el0] : 2% de los PdV faltantes del lanzador ",
+      "pt": "Em fim de turno, se um golpe crítico tiver sido desferido:\nCura [el0] : 2% dos PV perdidos do lançador "
     }
   },
   {
@@ -25639,7 +25639,7 @@
     "effects": [
       {
         "id_effect": 298622,
-        "name_effect": "En soignant un allié, si cet allié a moins de 15% PV :\\n<b>Soin [el0] : [#1]% des PV max de la cible [ecnbi]</b>",
+        "name_effect": "En soignant un allié, si cet allié a moins de 15% PV :\\n<b>Soin [el0] : [#1]% des PV max de la cible </b>",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -25657,7 +25657,7 @@
             "column_name": "name_effect",
             "foreign_key": 298622,
             "locale": "en",
-            "value": "When healing an ally, if the ally has less than 15% HP:\\n<b>[el0]  Heal: [#1]% of HP max of the target [ecnbi]</b>",
+            "value": "When healing an ally, if the ally has less than 15% HP:\\n<b>[el0]  Heal: [#1]% of HP max of the target </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -25667,7 +25667,7 @@
             "column_name": "name_effect",
             "foreign_key": 298622,
             "locale": "pt",
-            "value": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\\n<b>Cura [el0] : [#1]% dos PV máx. do alvo [ecnbi]</b>",
+            "value": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\\n<b>Cura [el0] : [#1]% dos PV máx. do alvo </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -25677,7 +25677,7 @@
             "column_name": "name_effect",
             "foreign_key": 298622,
             "locale": "es",
-            "value": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\\n<b>Cura [el0] : [#1]% de los PdV máx. del objetivo [ecnbi]</b>",
+            "value": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\\n<b>Cura [el0] : [#1]% de los PdV máx. del objetivo </b>",
             "created_at": "2023-11-07T00:03:46.000000Z",
             "updated_at": "2023-11-07T00:03:46.000000Z"
           }
@@ -25702,10 +25702,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "En soignant un allié, si cet allié a moins de 15% PV :\nSoin [el0] : 14% des PV max de la cible [ecnbi]",
-      "en": "When healing an ally, if the ally has less than 15% HP:\n[el0]  Heal: 14% of HP max of the target [ecnbi]",
-      "es": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\nCura [el0] : 14% de los PdV máx. del objetivo [ecnbi]",
-      "pt": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\nCura [el0] : 14% dos PV máx. do alvo [ecnbi]"
+      "fr": "En soignant un allié, si cet allié a moins de 15% PV :\nSoin [el0] : 14% des PV max de la cible ",
+      "en": "When healing an ally, if the ally has less than 15% HP:\n[el0]  Heal: 14% of HP max of the target ",
+      "es": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\nCura [el0] : 14% de los PdV máx. del objetivo ",
+      "pt": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\nCura [el0] : 14% dos PV máx. do alvo "
     }
   },
   {
@@ -25722,7 +25722,7 @@
     "effects": [
       {
         "id_effect": 298622,
-        "name_effect": "En soignant un allié, si cet allié a moins de 15% PV :\\n<b>Soin [el0] : [#1]% des PV max de la cible [ecnbi]</b>",
+        "name_effect": "En soignant un allié, si cet allié a moins de 15% PV :\\n<b>Soin [el0] : [#1]% des PV max de la cible </b>",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -25740,7 +25740,7 @@
             "column_name": "name_effect",
             "foreign_key": 298622,
             "locale": "en",
-            "value": "When healing an ally, if the ally has less than 15% HP:\\n<b>[el0]  Heal: [#1]% of HP max of the target [ecnbi]</b>",
+            "value": "When healing an ally, if the ally has less than 15% HP:\\n<b>[el0]  Heal: [#1]% of HP max of the target </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -25750,7 +25750,7 @@
             "column_name": "name_effect",
             "foreign_key": 298622,
             "locale": "pt",
-            "value": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\\n<b>Cura [el0] : [#1]% dos PV máx. do alvo [ecnbi]</b>",
+            "value": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\\n<b>Cura [el0] : [#1]% dos PV máx. do alvo </b>",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -25760,7 +25760,7 @@
             "column_name": "name_effect",
             "foreign_key": 298622,
             "locale": "es",
-            "value": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\\n<b>Cura [el0] : [#1]% de los PdV máx. del objetivo [ecnbi]</b>",
+            "value": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\\n<b>Cura [el0] : [#1]% de los PdV máx. del objetivo </b>",
             "created_at": "2023-11-07T00:03:46.000000Z",
             "updated_at": "2023-11-07T00:03:46.000000Z"
           }
@@ -25831,7 +25831,7 @@
         "effects": [
           {
             "id_effect": 298622,
-            "name_effect": "En soignant un allié, si cet allié a moins de 15% PV :\\n<b>Soin [el0] : [#1]% des PV max de la cible [ecnbi]</b>",
+            "name_effect": "En soignant un allié, si cet allié a moins de 15% PV :\\n<b>Soin [el0] : [#1]% des PV max de la cible </b>",
             "ui_position": 0,
             "from_evolution": 0,
             "container_min_level": 0,
@@ -25849,7 +25849,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 298622,
                 "locale": "en",
-                "value": "When healing an ally, if the ally has less than 15% HP:\\n<b>[el0]  Heal: [#1]% of HP max of the target [ecnbi]</b>",
+                "value": "When healing an ally, if the ally has less than 15% HP:\\n<b>[el0]  Heal: [#1]% of HP max of the target </b>",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -25859,7 +25859,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 298622,
                 "locale": "pt",
-                "value": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\\n<b>Cura [el0] : [#1]% dos PV máx. do alvo [ecnbi]</b>",
+                "value": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\\n<b>Cura [el0] : [#1]% dos PV máx. do alvo </b>",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -25869,7 +25869,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 298622,
                 "locale": "es",
-                "value": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\\n<b>Cura [el0] : [#1]% de los PdV máx. del objetivo [ecnbi]</b>",
+                "value": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\\n<b>Cura [el0] : [#1]% de los PdV máx. del objetivo </b>",
                 "created_at": "2023-11-07T00:03:46.000000Z",
                 "updated_at": "2023-11-07T00:03:46.000000Z"
               }
@@ -25957,10 +25957,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "En soignant un allié, si cet allié a moins de 15% PV :\nSoin [el0] : 7% des PV max de la cible [ecnbi]",
-      "en": "When healing an ally, if the ally has less than 15% HP:\n[el0]  Heal: 7% of HP max of the target [ecnbi]",
-      "es": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\nCura [el0] : 7% de los PdV máx. del objetivo [ecnbi]",
-      "pt": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\nCura [el0] : 7% dos PV máx. do alvo [ecnbi]"
+      "fr": "En soignant un allié, si cet allié a moins de 15% PV :\nSoin [el0] : 7% des PV max de la cible ",
+      "en": "When healing an ally, if the ally has less than 15% HP:\n[el0]  Heal: 7% of HP max of the target ",
+      "es": "Al curar a un aliado, si este aliado tiene menos del 15% de PdV:\nCura [el0] : 7% de los PdV máx. del objetivo ",
+      "pt": "Ao curar um aliado, se o aliado em questão tiver menos de 15% dos PV:\nCura [el0] : 7% dos PV máx. do alvo "
     }
   },
   {
@@ -34341,7 +34341,7 @@
     "effects": [
       {
         "id_effect": 315542,
-        "name_effect": "<b>Soin [el0] : [#1]% des PV manquants du lanceur [ecnbi] [ecnbr]</b> en tuant un ennemi (2 activations par tour)",
+        "name_effect": "<b>Soin [el0] : [#1]% des PV manquants du lanceur  [ecnbr]</b> en tuant un ennemi (2 activations par tour)",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -34359,7 +34359,7 @@
             "column_name": "name_effect",
             "foreign_key": 315542,
             "locale": "en",
-            "value": "<b>[el0]  Heal: [#1]% of HP lost of the caster [ecnbi] [ecnbr]</b> on killing an enemy (2 activations per turn)",
+            "value": "<b>[el0]  Heal: [#1]% of HP lost of the caster  [ecnbr]</b> on killing an enemy (2 activations per turn)",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -34369,7 +34369,7 @@
             "column_name": "name_effect",
             "foreign_key": 315542,
             "locale": "pt",
-            "value": "<b>Cura [el0] : [#1]% dos PV perdidos do lançador[ecnbi] [ecnbr]</b> ao matar um inimigo (2 ativações por turno)",
+            "value": "<b>Cura [el0] : [#1]% dos PV perdidos do lançador [ecnbr]</b> ao matar um inimigo (2 ativações por turno)",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -34379,7 +34379,7 @@
             "column_name": "name_effect",
             "foreign_key": 315542,
             "locale": "es",
-            "value": "<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador [ecnbi] [ecnbr]</b> al matar a un enemigo (2 activaciones por turno)",
+            "value": "<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador  [ecnbr]</b> al matar a un enemigo (2 activaciones por turno)",
             "created_at": "2023-11-07T00:03:46.000000Z",
             "updated_at": "2023-11-07T00:03:46.000000Z"
           }
@@ -34404,10 +34404,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "Soin [el0] : 20% des PV manquants du lanceur [ecnbi] [ecnbr] en tuant un ennemi (2 activations par tour)",
-      "en": "[el0]  Heal: 20% of HP lost of the caster [ecnbi] [ecnbr] on killing an enemy (2 activations per turn)",
-      "es": "Cura [el0] : 20% de los PdV faltantes del lanzador [ecnbi] [ecnbr] al matar a un enemigo (2 activaciones por turno)",
-      "pt": "Cura [el0] : 20% dos PV perdidos do lançador[ecnbi] [ecnbr] ao matar um inimigo (2 ativações por turno)"
+      "fr": "Soin [el0] : 20% des PV manquants du lanceur  [ecnbr] en tuant un ennemi (2 activations par tour)",
+      "en": "[el0]  Heal: 20% of HP lost of the caster  [ecnbr] on killing an enemy (2 activations per turn)",
+      "es": "Cura [el0] : 20% de los PdV faltantes del lanzador  [ecnbr] al matar a un enemigo (2 activaciones por turno)",
+      "pt": "Cura [el0] : 20% dos PV perdidos do lançador [ecnbr] ao matar um inimigo (2 ativações por turno)"
     }
   },
   {
@@ -34424,7 +34424,7 @@
     "effects": [
       {
         "id_effect": 315542,
-        "name_effect": "<b>Soin [el0] : [#1]% des PV manquants du lanceur [ecnbi] [ecnbr]</b> en tuant un ennemi (2 activations par tour)",
+        "name_effect": "<b>Soin [el0] : [#1]% des PV manquants du lanceur  [ecnbr]</b> en tuant un ennemi (2 activations par tour)",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -34442,7 +34442,7 @@
             "column_name": "name_effect",
             "foreign_key": 315542,
             "locale": "en",
-            "value": "<b>[el0]  Heal: [#1]% of HP lost of the caster [ecnbi] [ecnbr]</b> on killing an enemy (2 activations per turn)",
+            "value": "<b>[el0]  Heal: [#1]% of HP lost of the caster  [ecnbr]</b> on killing an enemy (2 activations per turn)",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -34452,7 +34452,7 @@
             "column_name": "name_effect",
             "foreign_key": 315542,
             "locale": "pt",
-            "value": "<b>Cura [el0] : [#1]% dos PV perdidos do lançador[ecnbi] [ecnbr]</b> ao matar um inimigo (2 ativações por turno)",
+            "value": "<b>Cura [el0] : [#1]% dos PV perdidos do lançador [ecnbr]</b> ao matar um inimigo (2 ativações por turno)",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -34462,7 +34462,7 @@
             "column_name": "name_effect",
             "foreign_key": 315542,
             "locale": "es",
-            "value": "<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador [ecnbi] [ecnbr]</b> al matar a un enemigo (2 activaciones por turno)",
+            "value": "<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador  [ecnbr]</b> al matar a un enemigo (2 activaciones por turno)",
             "created_at": "2023-11-07T00:03:46.000000Z",
             "updated_at": "2023-11-07T00:03:46.000000Z"
           }
@@ -34533,7 +34533,7 @@
         "effects": [
           {
             "id_effect": 315542,
-            "name_effect": "<b>Soin [el0] : [#1]% des PV manquants du lanceur [ecnbi] [ecnbr]</b> en tuant un ennemi (2 activations par tour)",
+            "name_effect": "<b>Soin [el0] : [#1]% des PV manquants du lanceur  [ecnbr]</b> en tuant un ennemi (2 activations par tour)",
             "ui_position": 0,
             "from_evolution": 0,
             "container_min_level": 0,
@@ -34551,7 +34551,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 315542,
                 "locale": "en",
-                "value": "<b>[el0]  Heal: [#1]% of HP lost of the caster [ecnbi] [ecnbr]</b> on killing an enemy (2 activations per turn)",
+                "value": "<b>[el0]  Heal: [#1]% of HP lost of the caster  [ecnbr]</b> on killing an enemy (2 activations per turn)",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -34561,7 +34561,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 315542,
                 "locale": "pt",
-                "value": "<b>Cura [el0] : [#1]% dos PV perdidos do lançador[ecnbi] [ecnbr]</b> ao matar um inimigo (2 ativações por turno)",
+                "value": "<b>Cura [el0] : [#1]% dos PV perdidos do lançador [ecnbr]</b> ao matar um inimigo (2 ativações por turno)",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -34571,7 +34571,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 315542,
                 "locale": "es",
-                "value": "<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador [ecnbi] [ecnbr]</b> al matar a un enemigo (2 activaciones por turno)",
+                "value": "<b>Cura [el0] : [#1]% de los PdV faltantes del lanzador  [ecnbr]</b> al matar a un enemigo (2 activaciones por turno)",
                 "created_at": "2023-11-07T00:03:46.000000Z",
                 "updated_at": "2023-11-07T00:03:46.000000Z"
               }
@@ -34659,10 +34659,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "Soin [el0] : 10% des PV manquants du lanceur [ecnbi] [ecnbr] en tuant un ennemi (2 activations par tour)",
-      "en": "[el0]  Heal: 10% of HP lost of the caster [ecnbi] [ecnbr] on killing an enemy (2 activations per turn)",
-      "es": "Cura [el0] : 10% de los PdV faltantes del lanzador [ecnbi] [ecnbr] al matar a un enemigo (2 activaciones por turno)",
-      "pt": "Cura [el0] : 10% dos PV perdidos do lançador[ecnbi] [ecnbr] ao matar um inimigo (2 ativações por turno)"
+      "fr": "Soin [el0] : 10% des PV manquants du lanceur  [ecnbr] en tuant un ennemi (2 activations par tour)",
+      "en": "[el0]  Heal: 10% of HP lost of the caster  [ecnbr] on killing an enemy (2 activations per turn)",
+      "es": "Cura [el0] : 10% de los PdV faltantes del lanzador  [ecnbr] al matar a un enemigo (2 activaciones por turno)",
+      "pt": "Cura [el0] : 10% dos PV perdidos do lançador [ecnbr] ao matar um inimigo (2 ativações por turno)"
     }
   },
   {
@@ -42250,7 +42250,7 @@
     "effects": [
       {
         "id_effect": 317899,
-        "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants [ecnbi]",
+        "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants ",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -42268,7 +42268,7 @@
             "column_name": "name_effect",
             "foreign_key": 317899,
             "locale": "en",
-            "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP [ecnbi]",
+            "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP ",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -42278,7 +42278,7 @@
             "column_name": "name_effect",
             "foreign_key": 317899,
             "locale": "pt",
-            "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes [ecnbi]",
+            "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes ",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -42288,7 +42288,7 @@
             "column_name": "name_effect",
             "foreign_key": 317899,
             "locale": "es",
-            "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes[ecnbi]",
+            "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes",
             "created_at": "2023-11-07T00:03:46.000000Z",
             "updated_at": "2023-11-07T00:03:46.000000Z"
           }
@@ -42313,10 +42313,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "En terminant son tour avec moins de 50% de PV :\nSoin [el0] : 10% des PV manquants [ecnbi]",
-      "en": "When ending turn with less than 50% HP:\n[el0] Heals: 10% of missing HP [ecnbi]",
-      "es": "Al terminar su turno con menos del 50% de PdV\nCura[el0]: 10% de los PdV faltantes[ecnbi]",
-      "pt": "Ao terminar o turno com menos de 50% dos PV:\nCura [el0]: 10% dos PV faltantes [ecnbi]"
+      "fr": "En terminant son tour avec moins de 50% de PV :\nSoin [el0] : 10% des PV manquants ",
+      "en": "When ending turn with less than 50% HP:\n[el0] Heals: 10% of missing HP ",
+      "es": "Al terminar su turno con menos del 50% de PdV\nCura[el0]: 10% de los PdV faltantes",
+      "pt": "Ao terminar o turno com menos de 50% dos PV:\nCura [el0]: 10% dos PV faltantes "
     }
   },
   {
@@ -42365,7 +42365,7 @@
     "effects": [
       {
         "id_effect": 317899,
-        "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants [ecnbi]",
+        "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants ",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -42383,7 +42383,7 @@
             "column_name": "name_effect",
             "foreign_key": 317899,
             "locale": "en",
-            "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP [ecnbi]",
+            "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP ",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -42393,7 +42393,7 @@
             "column_name": "name_effect",
             "foreign_key": 317899,
             "locale": "pt",
-            "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes [ecnbi]",
+            "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes ",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -42403,7 +42403,7 @@
             "column_name": "name_effect",
             "foreign_key": 317899,
             "locale": "es",
-            "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes[ecnbi]",
+            "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes",
             "created_at": "2023-11-07T00:03:46.000000Z",
             "updated_at": "2023-11-07T00:03:46.000000Z"
           }
@@ -42428,10 +42428,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "En terminant son tour avec moins de 50% de PV :\nSoin [el0] : 15% des PV manquants [ecnbi]",
-      "en": "When ending turn with less than 50% HP:\n[el0] Heals: 15% of missing HP [ecnbi]",
-      "es": "Al terminar su turno con menos del 50% de PdV\nCura[el0]: 15% de los PdV faltantes[ecnbi]",
-      "pt": "Ao terminar o turno com menos de 50% dos PV:\nCura [el0]: 15% dos PV faltantes [ecnbi]"
+      "fr": "En terminant son tour avec moins de 50% de PV :\nSoin [el0] : 15% des PV manquants ",
+      "en": "When ending turn with less than 50% HP:\n[el0] Heals: 15% of missing HP ",
+      "es": "Al terminar su turno con menos del 50% de PdV\nCura[el0]: 15% de los PdV faltantes",
+      "pt": "Ao terminar o turno com menos de 50% dos PV:\nCura [el0]: 15% dos PV faltantes "
     }
   },
   {
@@ -42448,7 +42448,7 @@
     "effects": [
       {
         "id_effect": 317899,
-        "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants [ecnbi]",
+        "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants ",
         "ui_position": 0,
         "from_evolution": 0,
         "container_min_level": 0,
@@ -42466,7 +42466,7 @@
             "column_name": "name_effect",
             "foreign_key": 317899,
             "locale": "en",
-            "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP [ecnbi]",
+            "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP ",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -42476,7 +42476,7 @@
             "column_name": "name_effect",
             "foreign_key": 317899,
             "locale": "pt",
-            "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes [ecnbi]",
+            "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes ",
             "created_at": "2024-07-20T20:28:36.000000Z",
             "updated_at": "2024-07-20T20:28:36.000000Z"
           },
@@ -42486,7 +42486,7 @@
             "column_name": "name_effect",
             "foreign_key": 317899,
             "locale": "es",
-            "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes[ecnbi]",
+            "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes",
             "created_at": "2023-11-07T00:03:46.000000Z",
             "updated_at": "2023-11-07T00:03:46.000000Z"
           }
@@ -42557,7 +42557,7 @@
         "effects": [
           {
             "id_effect": 317899,
-            "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants [ecnbi]",
+            "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants ",
             "ui_position": 0,
             "from_evolution": 0,
             "container_min_level": 0,
@@ -42575,7 +42575,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 317899,
                 "locale": "en",
-                "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP [ecnbi]",
+                "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP ",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -42585,7 +42585,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 317899,
                 "locale": "pt",
-                "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes [ecnbi]",
+                "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes ",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -42595,7 +42595,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 317899,
                 "locale": "es",
-                "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes[ecnbi]",
+                "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes",
                 "created_at": "2023-11-07T00:03:46.000000Z",
                 "updated_at": "2023-11-07T00:03:46.000000Z"
               }
@@ -42666,7 +42666,7 @@
         "effects": [
           {
             "id_effect": 317899,
-            "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants [ecnbi]",
+            "name_effect": "En terminant son tour avec moins de 50% de PV :\\nSoin [el0] : <b>[#1]</b>% des PV manquants ",
             "ui_position": 0,
             "from_evolution": 0,
             "container_min_level": 0,
@@ -42684,7 +42684,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 317899,
                 "locale": "en",
-                "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP [ecnbi]",
+                "value": "When ending turn with less than 50% HP:\\n[el0] Heals: <b>[#1]</b>% of missing HP ",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -42694,7 +42694,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 317899,
                 "locale": "pt",
-                "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes [ecnbi]",
+                "value": "Ao terminar o turno com menos de 50% dos PV:\\nCura [el0]: <b>[#1]</b>% dos PV faltantes ",
                 "created_at": "2024-07-20T20:28:36.000000Z",
                 "updated_at": "2024-07-20T20:28:36.000000Z"
               },
@@ -42704,7 +42704,7 @@
                 "column_name": "name_effect",
                 "foreign_key": 317899,
                 "locale": "es",
-                "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes[ecnbi]",
+                "value": "Al terminar su turno con menos del 50% de PdV\\nCura[el0]: <b>[#1]</b>% de los PdV faltantes",
                 "created_at": "2023-11-07T00:03:46.000000Z",
                 "updated_at": "2023-11-07T00:03:46.000000Z"
               }
@@ -42792,10 +42792,10 @@
       }
     ],
     "parsedEffects": {
-      "fr": "En terminant son tour avec moins de 50% de PV :\nSoin [el0] : 5% des PV manquants [ecnbi]",
-      "en": "When ending turn with less than 50% HP:\n[el0] Heals: 5% of missing HP [ecnbi]",
-      "es": "Al terminar su turno con menos del 50% de PdV\nCura[el0]: 5% de los PdV faltantes[ecnbi]",
-      "pt": "Ao terminar o turno com menos de 50% dos PV:\nCura [el0]: 5% dos PV faltantes [ecnbi]"
+      "fr": "En terminant son tour avec moins de 50% de PV :\nSoin [el0] : 5% des PV manquants ",
+      "en": "When ending turn with less than 50% HP:\n[el0] Heals: 5% of missing HP ",
+      "es": "Al terminar su turno con menos del 50% de PdV\nCura[el0]: 5% de los PdV faltantes",
+      "pt": "Ao terminar o turno com menos de 50% dos PV:\nCura [el0]: 5% dos PV faltantes "
     }
   },
   {
