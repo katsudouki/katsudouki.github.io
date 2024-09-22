@@ -1,1 +1,1 @@
-{"type":"module","dependencies":{"@midudev/tailwind-animations":"^0.0.7","tailwindcss":"^3.4.6","tailwindcss-animations":"^2.0.0"}}
+{"type":"module","dependencies":{"@midudev/tailwind-animations":"^0.0.7","axios":"^1.7.7","tailwindcss":"^3.4.6","tailwindcss-animations":"^2.0.0"}}
