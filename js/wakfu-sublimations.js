@@ -1,4 +1,11 @@
 $(document).ready(function () {
+    const colorMap = {
+        'branco': null,
+        'vermelho': 'shard_red_empty',
+        'azul': 'shard_blue_empty',
+        'verde': 'shard_green_empty'
+    };
+
     function loadData() {
         $.getJSON('files/zenithSublimations.json', function (data) {
             const groupedData = {};
@@ -70,14 +77,33 @@ $(document).ready(function () {
         });
     }
 
-    function applyFilters() {
-        const colorMap = {
-            'branco': null,
-            'vermelho': 'shard_red_empty',
-            'azul': 'shard_blue_empty',
-            'verde': 'shard_green_empty'
-        };
+    function generateCombinations(color1, color2, color3) {
+        const combinations = [];
+        const colors1 = color1 === 'branco' ? ['vermelho', 'azul', 'verde'] : [color1];
+        const colors2 = color2 === 'branco' ? ['vermelho', 'azul', 'verde'] : [color2];
+        const colors3 = color3 === 'branco' ? ['vermelho', 'azul', 'verde'] : [color3];
 
+        for (let c1 of colors1) {
+            for (let c2 of colors2) {
+                for (let c3 of colors3) {
+                    combinations.push([c1, c2, c3]);
+                }
+            }
+        }
+
+        return combinations;
+    }
+
+    function checkMatches(slots, combinations) {
+        return combinations.some(combination => {
+            return combination.every((color, index) => {
+                const expectedColor = colorMap[color];
+                return expectedColor === null || slots[index] === expectedColor;
+            });
+        });
+    }
+
+    function applyFilters() {
         const selectedColors = [
             $("#select1").val(),
             $("#select2").val(),
@@ -85,47 +111,40 @@ $(document).ready(function () {
             $("#select4").val()
         ];
 
-        const combinations = [
-            [selectedColors[0], selectedColors[1], selectedColors[2]],
-            [selectedColors[0], selectedColors[1], selectedColors[3]],
-            [selectedColors[0], selectedColors[2], selectedColors[3]],
-            [selectedColors[1], selectedColors[2], selectedColors[3]]
-        ];
+        const combinations1 = generateCombinations(selectedColors[0], selectedColors[1], selectedColors[2]);
+        const combinations2 = generateCombinations(selectedColors[1], selectedColors[2], selectedColors[3]);
 
         $("#tabledata tr").each(function () {
             const slots = $(this).find('td').eq(5).text().split(', ');
-            let matches = combinations.some(combination => {
-                return combination.every((color, index) => {
-                    const expectedColor = colorMap[color];
-                    return expectedColor === null || slots[index] === expectedColor;
-                });
-            });
+            const matches1 = checkMatches(slots, combinations1);
+            const matches2 = checkMatches(slots, combinations2);
 
-            $(this).toggle(matches || $(this).find('td:first').text() === 'Nome');
+            $(this).toggle(matches1 || matches2 || $(this).find('td:first').text() === 'Nome');
         });
     }
 
+    $("#select1, #select2, #select3, #select4").change(applyFilters);
     $('#select1, #select2, #select3, #select4').change(function () {
-        applyFilters();
-    });
-    $("#select1").change(function() {
-        var selectedValue = $(this).val(); // Obter o valor selecionado
-        $("#slot1").attr("src", "imgs/" + selectedValue + ".webp"); // Definir o novo src
-        });
-        $("#select2").change(function() {
-        var selectedValue = $(this).val(); // Obter o valor selecionado
-        $("#slot2").attr("src", "imgs/" + selectedValue + ".webp"); // Definir o novo src
-        });
-        
-        $("#select3").change(function() {
-        var selectedValue = $(this).val(); // Obter o valor selecionado
-        $("#slot3").attr("src", "imgs/" + selectedValue + ".webp"); // Definir o novo src
-        });
-        
-        $("#select4").change(function() {
-        var selectedValue = $(this).val(); // Obter o valor selecionado
-        $("#slot4").attr("src", "imgs/" + selectedValue + ".webp"); // Definir o novo src
-        });
+applyFilters();
+});
+$("#select1").change(function() {
+var selectedValue = $(this).val(); // Obter o valor selecionado
+$("#slot1").attr("src", "imgs/" + selectedValue + ".webp"); // Definir o novo src
+});
+$("#select2").change(function() {
+var selectedValue = $(this).val(); // Obter o valor selecionado
+$("#slot2").attr("src", "imgs/" + selectedValue + ".webp"); // Definir o novo src
+});
+
+$("#select3").change(function() {
+var selectedValue = $(this).val(); // Obter o valor selecionado
+$("#slot3").attr("src", "imgs/" + selectedValue + ".webp"); // Definir o novo src
+});
+
+$("#select4").change(function() {
+var selectedValue = $(this).val(); // Obter o valor selecionado
+$("#slot4").attr("src", "imgs/" + selectedValue + ".webp"); // Definir o novo src
+});
 
     loadData();
 });

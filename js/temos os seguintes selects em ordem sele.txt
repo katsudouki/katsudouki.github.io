@@ -1,0 +1,7 @@
+temos os seguintes selects em ordem select1,select2,select3,select4
+preciso que esse script mostre na tabela a combinacao de slots que encaixem nos seguintes selects na repectiva ordem
+select1,select2,select3
+select2,select3,select4
+tratando o branco como coringa
+de modo que caso seja os 4 selects na ordem vermelho,azul,branco,branco resultaria no seguinte 
+select1,select2,select3 resultaria nas combinacoes

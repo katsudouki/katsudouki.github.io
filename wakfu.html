@@ -29,30 +29,28 @@
         table tr:hover {
             background-color: rgba(163, 17, 163, 0.103); /* Transparent purple */
         }
-        body{
+        body {
             background-image: url('./imgs/wakfu2.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
-
         }
-        td img{
+        td img {
             padding-right: 2px;
             display: inline-block;
             vertical-align: middle;
         }
-        select{
-            background-color:#DCB66C;
-            border:none;
+        select {
+            background-color: #DCB66C;
+            border: none;
         }
- 
     </style>
 </head>
 <body class="bg-slate-900 flex flex-col items-center p-4">
 
     <div class="w-[94%] items-center bg-blue-400 p-8 bg-opacity-60 rounded-lg">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 w-full  m-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 w-full m-10">
             <div class="flex flex-col items-center">
                 <label for="select1"><img id="slot1" src="imgs/branco.webp" class="mb-2"></label>
                 <select id="select1" class="p-2 border border-gray-300 rounded">
@@ -64,7 +62,7 @@
             </div>
 
             <div class="flex flex-col items-center">
-                <label for="select2"><img id="slot2" src="imgs/branco.webp" class="mb-2"> </label>
+                <label for="select2"><img id="slot2" src="imgs/branco.webp" class="mb-2"></label>
                 <select id="select2" class="p-2 border border-gray-300 rounded">
                     <option value="branco">Branco</option>
                     <option value="vermelho">Vermelho</option>
@@ -95,40 +93,13 @@
         </div>
 
         <table id="tabledata" style="table-layout: fixed;" class="mt-4 w-full text-left text-white bg-gray-800 border-separate border-gray-100 rounded bg-opacity-80">
-            <tr class="text-center font-bold bg-slate-950 sticky top-0"><td>Nome</td><td>I</td><td>II</td><td>III</td><td>Nivel Max</td><td class="hidden"></td><td>Slots</td></tr>
+            <tr class="text-center font-bold bg-slate-950 sticky top-0">
+                <td>Nome</td><td>I</td><td>II</td><td>III</td><td>Nível Max</td><td class="hidden"></td><td>Slots</td>
+            </tr>
         </table>
     </div> 
 
-    <script src="js/wakfu-sublimations.js"></script>
-    <script>
-        // Lista de ids dos selects
-        const selectIds = ['select1', 'select2', 'select3', 'select4'];
-    
-        // Função para adicionar o evento 'change' em cada select
-        selectIds.forEach(id => {
-            const selectElement = document.getElementById(id);
-    
-            selectElement.addEventListener('change', function() {
-                const selectedOption = this.options[this.selectedIndex];
-                let selectedColor;
-    
-                // Condicional para verificar o valor da opção selecionada
-                if (selectedOption.value === "vermelho") {
-                    selectedColor = "#B33B2B";
-                } else if (selectedOption.value === "verde") {
-                    selectedColor = "#8FE948";
-                } else if (selectedOption.value === "azul") {
-                    selectedColor = "#7AF8F0";
-                } else {
-                    selectedColor = "#DCB66C";
-                }
-    
-                // Define a cor de fundo de acordo com a cor selecionada
-                this.style.backgroundColor = selectedColor;
-            });
-        });
-    </script>
-    
-
+    <script src="./js/wakfu-sublimations.js"></script>
+        
 </body>
 </html>
